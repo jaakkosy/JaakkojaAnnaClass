@@ -10,7 +10,6 @@ namespace ClassLibraryJA
             return (CompletionDate.Date > DateTime.UtcNow.Date);
 
         }
-
     }
 }
 
