@@ -2,26 +2,28 @@
 
 namespace ClassLibraryJA
 {
-    public class Class1
+    public class Aikataulussa
     {
-        static bool ReadBoolMethod(DateTime CompletionDate)
+        public bool ReadBoolMethod(float estimatedPaiva, float timeSpent)
         {
-            var estimatedPäivä = 5 * 8; // selvä
-            var timespent = 10; // selvä
-            var tarvittava = estimatedPäivä - timespent; // selvä
-            var jäljellä = 8; // completiondate - datetime.now välissä
+           
+            float tarvittava = estimatedPaiva - timeSpent; // selvä (34h)
 
-            DateTime aloitusdate = new DateTime();
+            float jäljellä = 1*8; // completiondate - datetime.now välissä
+
+            /*DateTime aloitusdate = new DateTime();
 
             DateTime testi = new DateTime();
 
-            var completionDate = aloitusdate.AddHours(timespent);
-
-            
-            var Tulos = tarvittava < jäljellä;
+            var completionDate = aloitusdate.AddHours(timespent);*/
 
 
-            return (CompletionDate.Date > DateTime.UtcNow.Date);
+
+            bool Tulos = tarvittava < jäljellä;
+            return Tulos;
+
+
+            //return (CompletionDate.Date > DateTime.UtcNow.Date);
 
         }
     }

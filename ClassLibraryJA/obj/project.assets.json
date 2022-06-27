@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\JaakkoSyrjämäki\\.nuget\\packages\\": {}
+    "C:\\Users\\Anna\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JaakkoSyrjämäki\\source\\repos\\ClassLibraryJA\\ClassLibraryJA\\ClassLibraryJA.csproj",
+      "projectUniqueName": "C:\\Users\\Anna\\source\\repos\\JaakkojaAnnaClass\\ClassLibraryJA\\ClassLibraryJA.csproj",
       "projectName": "ClassLibraryJA",
-      "projectPath": "C:\\Users\\JaakkoSyrjämäki\\source\\repos\\ClassLibraryJA\\ClassLibraryJA\\ClassLibraryJA.csproj",
-      "packagesPath": "C:\\Users\\JaakkoSyrjämäki\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JaakkoSyrjämäki\\source\\repos\\ClassLibraryJA\\ClassLibraryJA\\obj\\",
+      "projectPath": "C:\\Users\\Anna\\source\\repos\\JaakkojaAnnaClass\\ClassLibraryJA\\ClassLibraryJA.csproj",
+      "packagesPath": "C:\\Users\\Anna\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Anna\\source\\repos\\JaakkojaAnnaClass\\ClassLibraryJA\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\JaakkoSyrjämäki\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Anna\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
