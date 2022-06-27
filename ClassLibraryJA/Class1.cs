@@ -6,11 +6,27 @@ namespace ClassLibraryJA
     {
         static bool ReadBoolMethod(DateTime CompletionDate)
         {
+            var estimatedPäivä = 5 * 8; // selvä
+            var timespent = 10; // selvä
+            var tarvittava = estimatedPäivä - timespent; // selvä
+            var jäljellä = 8; // completiondate - datetime.now välissä
+
+            DateTime aloitusdate = new DateTime();
+
+            DateTime testi = new DateTime();
+
+            var completionDate = aloitusdate.AddHours(timespent);
+
+            
+            var Tulos = tarvittava < jäljellä;
+
 
             return (CompletionDate.Date > DateTime.UtcNow.Date);
 
         }
     }
+
+
 }
 
 // TESTIMUUTOS ANNALTA
@@ -25,5 +41,10 @@ namespace ClassLibraryJA
 
 //    estimated - timespent = 
 
-    
+
 //
+
+
+
+// var montakoOpiskeluPäivääJäljellä = (estimated(40h) - timespent(10h)) / 8h 
+// boolTulos = montakoOpiskeluPäivääJäljellä > jotain 
