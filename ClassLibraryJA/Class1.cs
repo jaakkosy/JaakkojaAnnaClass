@@ -26,6 +26,14 @@ namespace ClassLibraryJA
             //return (CompletionDate.Date > DateTime.UtcNow.Date);
 
         }
+
+        public bool ReadBoolMethod2(DateTime? CompletionDate)
+        {
+
+            return (CompletionDate > DateTime.UtcNow.Date);
+
+        }
+
     }
 
 
